@@ -13,6 +13,7 @@
 		A88271E01D6BF7F80065B50E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A88271DE1D6BF7F80065B50E /* Main.storyboard */; };
 		A88271E21D6BF7F80065B50E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A88271E11D6BF7F80065B50E /* Assets.xcassets */; };
 		A88271E51D6BF7F80065B50E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A88271E31D6BF7F80065B50E /* LaunchScreen.storyboard */; };
+		A88271EE1D6BF8CB0065B50E /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = A88271ED1D6BF8CB0065B50E /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A88271E11D6BF7F80065B50E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A88271E41D6BF7F80065B50E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A88271E61D6BF7F80065B50E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A88271EC1D6BF8CB0065B50E /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		A88271ED1D6BF8CB0065B50E /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				A88271D91D6BF7F80065B50E /* AppDelegate.m */,
 				A88271DB1D6BF7F80065B50E /* ViewController.h */,
 				A88271DC1D6BF7F80065B50E /* ViewController.m */,
+				A88271EC1D6BF8CB0065B50E /* Dog.h */,
+				A88271ED1D6BF8CB0065B50E /* Dog.m */,
 				A88271DE1D6BF7F80065B50E /* Main.storyboard */,
 				A88271E11D6BF7F80065B50E /* Assets.xcassets */,
 				A88271E31D6BF7F80065B50E /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 			files = (
 				A88271DD1D6BF7F80065B50E /* ViewController.m in Sources */,
 				A88271DA1D6BF7F80065B50E /* AppDelegate.m in Sources */,
+				A88271EE1D6BF8CB0065B50E /* Dog.m in Sources */,
 				A88271D71D6BF7F80065B50E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
